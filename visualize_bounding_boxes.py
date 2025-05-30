@@ -1,8 +1,8 @@
 import cv2
 
 
-dir_imagen = r"Data_sets\Data_set_2imagen_001.png"
-dir_text = r"Data_sets\Data_set_2imagen_001.txt"
+dir_imagen = r"C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\Data_sets\Data_set_2\imagen_002.png"
+dir_text = r"C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\Data_sets\Data_set_2\imagen_002.txt"
 
 imagen = cv2.imread(dir_imagen)
 
