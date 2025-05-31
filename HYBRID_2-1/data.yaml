@@ -1,0 +1,6 @@
+train: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\HYBRID_2-1\train
+val: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\HYBRID_2-1\valid
+test: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\HYBRID_2-1\test
+
+nc: 4
+names: ['Pieza_1', 'Pieza_2', 'Pieza_3', 'Pieza_4']
