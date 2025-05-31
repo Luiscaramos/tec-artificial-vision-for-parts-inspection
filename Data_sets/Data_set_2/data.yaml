@@ -1,0 +1,6 @@
+train: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\Data_sets\Data_set_2\Imagenes\train
+val: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\Data_sets\Data_set_2\Imagenes\val
+
+nc: 4  # número de clases
+
+names: ['Pieza1', 'Pieza2', 'Pieza3','Pieza4']
