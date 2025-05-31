@@ -1,0 +1,7 @@
+train: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\REAL_ONLY\test\images
+val: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\REAL_ONLY\valid\images
+test: C:\Users\Luis Carlos Ramos\Personal\tec-artificial-vision-for-parts-inspection\REAL_ONLY\test\images
+
+nc: 5
+names: ['Pieza_1', 'Pieza_2', 'Pieza_3', 'Pieza_4', 'undefined']
+
