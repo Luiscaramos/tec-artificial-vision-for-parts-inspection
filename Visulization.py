@@ -1,14 +1,14 @@
 from ultralytics import YOLO
 import cv2
 
-version = r'HYBRID_1-1\runs\detect'
+version = r'HYBRID_2-1\runs\detect\train\weights\best.pt'
 
 # Cargar el modelo entrenado
 model = YOLO(version)
 
 # Iniciar la cámara (0 = cámara integrada principal)
 
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(1)
 
 # Verificar si se abrió la cámara correctamente
 if not cap.isOpened():
@@ -22,9 +22,12 @@ while True:
     if not ret:
         print("⚠️ No se pudo leer el frame de la cámara.")
         break
+    gris = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
+    gris = cv2.merge([gris, gris, gris])
+    
     # Hacer inferencia con YOLO
-    results = model(frame)
+    results = model(gris)
 
     # Dibujar predicciones sobre la imagen
     annotated_frame = results[0].plot()
